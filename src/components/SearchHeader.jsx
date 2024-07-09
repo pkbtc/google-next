@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { RiSettings3Line } from 'react-icons/ri';
 import { TbGridDots } from 'react-icons/tb';
+import SearchHeaderOptions from './SearchHeaderOptions';
 const SearchHeader = () => {
   return (
     <header className='sticky top-0 bg-white'>
@@ -29,7 +30,7 @@ const SearchHeader = () => {
         Sign in
       </button>
     </div>
-    
+    <SearchHeaderOptions/>
   </header>
   )
 }

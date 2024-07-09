@@ -5,6 +5,7 @@ import { CiSearch } from "react-icons/ci";
 import { FaMicrophone } from "react-icons/fa";
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import SearchHeaderOptions from './SearchHeaderOptions';
 const HomeSeacrch = () => {
     const [input,setInput]=useState('');
     const [randomSearchLoadig,setRandomSearchLoadig]=useState(false);
